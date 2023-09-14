@@ -1,0 +1,14 @@
+:root{
+    --ff-titles:'PT Sans', sans-serif;
+    --ff-base:font-family: 'Barlow', sans-serif;
+    --c-base:#80ed99;
+    --c-light:#f1faee;
+    --c-dark:#38a3a5;
+    --c-black:#000;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+}
