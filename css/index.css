@@ -10,5 +10,99 @@
 *::before,
 *::after {
     box-sizing: border-box;
-    margin: 0;
+
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    margin: 2px 2PX;
+    border: 3px solid black;
+    border-radius: 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+section{
+    border: 2px solid black;
+    border-radius: 16px;
+    width: 50%;
+}
+header,
+nav,
+main,
+aside,
+footer {
+    border: 2px solid black;
+    border-radius: 16px;
+}
+header, nav, footer {
+    width: 100%;
+    
+  
+}
+header{
+    background-color: #80ed99;
+    height: 88px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+nav {
+   display: flex;
+   justify-content: space-between;
+   max-width: 992px;
+   margin: 0px auto;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+.nav-menu-link:hover{
+    background-color: var(--c-dark);
+    transition: 0.5s;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 16px 32px;
+}
+.nav-menu-item{
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0px 16px;
+    width: max-content;
+    padding: 0 20px;
+}
+.toggle{
+    color: white;
+    background: none;
+    border: none;
+    font-size:30px ;
+    display: none;
+}
+@media (max-width:768px){
+    
+}
+
+footer {
+    height: 160px;
+}
+main {
+    width: 70%;
+    display: flex;
+}
+aside {
+    width: 30%;
 }
